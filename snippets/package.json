@@ -1,0 +1,23 @@
+{
+    "name": "snips",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": [
+                    "markdown",
+                    "tex",
+                    "html",
+                    "quarto"
+                ],
+                "path": "./global.json"
+            },
+            {
+                "language": "vue",
+                "path": "./ida.json"
+            }
+        ]
+    }
+}

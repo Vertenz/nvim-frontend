@@ -1,0 +1,117 @@
+{
+    "vue2": {
+        "prefix": "ida-vue2",
+        "body": [
+            "<template>",
+            "    <div :class=\"\\$style.${1:name}\">",
+            "        ",
+            "    </div>",
+            "</template>",
+            "",
+            "<script>",
+            "export default {",
+            "    name: '${1:name}',",
+            "",
+            "    $0",
+            "}",
+            "</script>",
+            "",
+            "<style lang=\"scss\" module>",
+            "    .${1:name} {",
+            "        //",
+            "    }",
+            "</style>"
+        ],
+        "description": "Vue2 Component Template With Options API"
+    },
+    "cm": {
+        "prefix": "cm",
+        "body": [
+            ":class=\"\\$style.${1:name}\""
+        ],
+        "description": "Creates a module class"
+    },
+    "vd": {
+        "prefix": "vd",
+        "body": [
+            "<div :class=\"\\$style.${1:class}\"></div>"
+        ],
+        "description": "Creates a div with a dynamic class bound to $style"
+    },
+    "vp": {
+        "prefix": "vp",
+        "body": [
+            "<p :class=\"\\$style.${1:class}\"></p>"
+        ],
+        "description": "Creates a p with a dynamic class bound to $style"
+    },
+    "vs": {
+        "prefix": "vs",
+        "body": [
+            "<section :class=\"\\$style.${1:class}\"></section>"
+        ],
+        "description": "Creates a section with a dynamic class bound to $style"
+    },
+    "vc": {
+        "prefix": "vc",
+        "body": [
+            "<component :is=\"${1:component}\" :class=\"\\$style.${2:class}\"></component>"
+        ],
+        "description": "Creates a component with a dynamic class bound to $style"
+    },
+    "vue3": {
+        "prefix": "ida-vue3",
+        "body": [
+            "<script setup lang=\"ts\">",
+            "// #region Imports",
+            "// Utils",
+            "// Vue",
+            "// Pinia",
+            "// Components",
+            "// #endregion",
+            "",
+            "// #region Interfaces",
+            "//",
+            "// #endregion",
+            "",
+            "// #region Props",
+            "//",
+            "// #endregion",
+            "",
+            "// #region Emits",
+            "//",
+            "// #endregion",
+            "",
+            "// #region Data",
+            "//",
+            "// #endregion",
+            "",
+            "// #region Computed",
+            "//",
+            "// #endregion",
+            "",
+            "// #region Methods",
+            "//",
+            "// #endregion",
+            "",
+            "// #region Lifecycle",
+            "//",
+            "// #endregion",
+            "",
+            "</script>",
+            "",
+            "<template>",
+            "    <div :class=\"\\$style.${1:name}\">",
+            "        ",
+            "    </div>",
+            "</template>",
+            "",
+            "<style module lang=\"scss\">",
+            "    .${1:name} {",
+            "        //",
+            "    }",
+            "</style>"
+        ],
+        "description": "Vue3 Component Template With Composition API"
+    }
+}

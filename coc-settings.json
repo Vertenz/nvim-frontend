@@ -1,0 +1,58 @@
+{
+    "coc.preferences.diagnostic.displayByAle": true,
+    "coc.source.spell.checkComments": true,
+    "coc.source.spell.checkStrings": true,
+    "coc.source.spell.checkIdentifiers": true,
+    "coc.source.spell.language": "en,ru",
+    "coc.source.spell.suggestThreshold": 5,
+  
+    "cSpellExt.enableDictionaries": ["russian"],
+    "cSpell.language": "en-GB,en,ru",
+  
+    "cSpell.maxNumberOfProblems": 100,
+  
+    "cSpell.numSuggestions": 8,
+  
+    "cSpell.minWordLength": 4,
+  
+    "cSpell.enabledLanguageIds": [
+      "javascript",
+      "javascriptreact",
+      "javascriptvue",
+      "vue",
+      "markdown",
+      "typescript",
+      "typescriptreact",
+      "typescriptvue",
+      "yml",
+      "json"
+    ],
+  
+    "cSpell.enabled": true,
+  
+    "cSpell.showStatus": true,
+  
+    "cSpell.words": [],
+  
+    "cSpell.allowCompoundWords": false,
+  
+    "cSpell.ignoreWords": ["behaviour"],
+  
+    "cSpell.userWords": [],
+  
+    "cSpell.ignorePaths": [
+      "node_modules",        
+      "**/node_modules",     
+      "**/node_modules/**",  
+      "node_modules/**",     
+      "vscode-extension",    
+      ".git",                
+      "*.dll",               
+      "**/*.dll",             
+      "dist/*"
+    ],
+  
+    "cSpell.flagWords": ["hte"],
+  
+    "cSpell.spellCheckDelayMs": 150
+  }
