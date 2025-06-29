@@ -6,17 +6,19 @@ harpoon:setup()
 
 vim.keymap.set("n", "<leader>ha", function()
 	harpoon:list():add()
-end)
+end, { desc = "Add file to harpoon" })
 
 -- Toggle previous & next buffers stored within Harpoon list
 vim.keymap.set("n", "<leader>hp", function()
 	harpoon:list():prev()
-end)
+end, { desc = "Go to previous harpoon file" })
+
 vim.keymap.set("n", "<leader>hn", function()
 	harpoon:list():next()
-end)
+end, { desc = "Go to next harpoon file" })
+
 -- Remove current file from Harpoon list
-vim.keymap.set("n", "<leader>r", function()
+vim.keymap.set("n", "<leader>hr", function()
 	harpoon:list():remove()
 end, { desc = "Remove file from harpoon" })
 

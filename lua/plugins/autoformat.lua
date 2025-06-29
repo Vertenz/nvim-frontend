@@ -35,7 +35,7 @@ return { -- Autoformat
 			--
 			-- You can use 'stop_after_first' to run the first available formatter from the list
 			javascript = { "prettierd", "eslint_d" },
-			vue = { "stylelint", "prettierd", "eslint_d" },
+			vue = { "stylelint", "eslint_d" },
 			react = { "stylelint", "prettierd", "eslint_d" },
 			typescriptreact = { "stylelint", "prettierd", "eslint_d" },
 			javascriptreact = { "stylelint", "prettierd", "eslint_d" },
