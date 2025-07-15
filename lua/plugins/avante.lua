@@ -9,7 +9,6 @@ return {
 	---@type avante.Config
 	opts = {
 		provider = "copilot",
-		auto_suggestions_provider = "claude",
 		behaviour = {
 			auto_suggestions = false,
 		},

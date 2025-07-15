@@ -22,6 +22,11 @@ vim.keymap.set("n", "<leader>hr", function()
 	harpoon:list():remove()
 end, { desc = "Remove file from harpoon" })
 
+-- Remove all files from Harpoon list
+vim.keymap.set("n", "<leader>hc", function()
+	harpoon:list():clear()
+end, { desc = "Clear harpoon list" })
+
 -- basic telescope configuration
 local conf = require("telescope.config").values
 local function toggle_telescope(harpoon_files)
