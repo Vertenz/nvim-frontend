@@ -16,7 +16,6 @@ vim.opt.termguicolors = true
 
 -- Make line numbers default
 vim.opt.number = true
-
 -- switch numbers depends on mode
 vim.api.nvim_create_autocmd({ "InsertEnter" }, {
 	pattern = "*",
@@ -209,14 +208,19 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 	end,
 })
 
+-- spell
+vim.opt.spell = true
+vim.opt.spelllang = { "en_us", "ru_ru" }
+vim.opt.spelloptions = "camel"
+
 -- lazy.nvim
 require("config.lazy")
 
--- vuejs
+-- vue
+require("config.vue3-lps")
+
+-- main-lsp
 require("config.lsp-config")
 
 -- harpoon
 require("config.harpoon-setup")
-
--- battery save
-require("config.battery-save")

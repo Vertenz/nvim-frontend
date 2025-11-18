@@ -1,16 +1,18 @@
 local servers = {
 	"vtsls",
-	"vue_ls",
+	"vuels",
+	-- "vue_ls",
 	"lua_ls",
 	"stylelint_lsp",
 	"somesass_ls",
 	"css_variables",
+	"basedpyright",
 }
 
 local additional = {
 	"eslint_d",
 	"stylua",
-	"prettierd",
+	-- "prettierd",
 }
 
 return {
